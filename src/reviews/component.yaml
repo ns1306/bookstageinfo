@@ -16,6 +16,10 @@ spec:
   lifecycle: production
   owner: backend
   system: bookstageinfo
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   providesApis:
     - reviews-api
   consumesApis:
@@ -33,6 +37,10 @@ spec:
   lifecycle: production
   owner: backend
   system: bookstageinfo
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   definition: |
     swagger: "2.0"
     info:

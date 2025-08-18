@@ -12,6 +12,10 @@ metadata:
     backstage.io/kubernetes-id: ratings
     backstage.io/kubernetes-label-selector: 'app=ratings'
 spec:
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   type: service
   lifecycle: production
   owner: ratings-team
@@ -25,6 +29,10 @@ metadata:
   name: ratings-api
   description: API for the ratings backend
 spec:
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   type: openapi
   lifecycle: production
   owner: ratings-team

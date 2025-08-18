@@ -12,6 +12,10 @@ metadata:
     backstage.io/kubernetes-id: productpage
     backstage.io/kubernetes-label-selector: 'app=productpage'
 spec:
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   type: service
   lifecycle: production
   owner: frontend
@@ -31,6 +35,10 @@ metadata:
   name: productpage-api
   description: API for the reviews backend
 spec:
+  owner: amitkumar
+  team: SRE
+  managed_by: SRE_Team
+  infra: aws
   type: openapi
   lifecycle: production
   owner: frontend
