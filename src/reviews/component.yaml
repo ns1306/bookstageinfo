@@ -14,7 +14,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: backend
   system: bookstageinfo
   owner: amitkumar
   team: SRE
@@ -35,7 +34,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: backend
   system: bookstageinfo
   owner: amitkumar
   team: SRE

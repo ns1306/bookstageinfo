@@ -14,7 +14,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: backend
   system: bookstageinfo
   owner: amitkumar
   team: SRE
@@ -33,7 +32,6 @@ spec:
   lifecycle: production
   owner: backend
   system: bookstageinfo
-  owner: amitkumar
   team: SRE
   managed_by: SRE_Team
   infra: aws
