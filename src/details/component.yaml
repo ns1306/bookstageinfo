@@ -15,6 +15,7 @@ spec:
   type: service
   is_a_part_of: test
   lifecycle: production
+  repo:patterninc/amaczar-tf
   system: bookstageinfo
   owner: amitkumar
   team: SRE
