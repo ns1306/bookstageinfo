@@ -15,6 +15,7 @@ spec:
   team: SRE
   managed_by: SRE_Team
   infra: aws
+  repo: patterninc/amaczar-tf
   type: service
   lifecycle: production
   owner: frontend
