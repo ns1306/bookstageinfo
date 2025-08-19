@@ -13,6 +13,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app=details'
 spec:
   type: service
+  is_a_part_of: test
   lifecycle: production
   system: bookstageinfo
   owner: amitkumar
